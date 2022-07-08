@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: justify;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.container {
+    background-color: #f7e4ef;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+.main .container {
+    background-color: #faf5f8;
+}
+.header img {
+    border-radius: 50%;
+}
+span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.contacts a {
+    text-decoration: none;
+    color: #000;
+}
+.contacts a:hover {
+    color: #fa5407;
+}
